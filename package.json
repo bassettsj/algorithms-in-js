@@ -1,0 +1,35 @@
+{
+  "name": "algorithms-in-js",
+  "version": "1.0.0",
+  "description": "Common alogorithms done in JS for practice",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape -r babel-register ./src/**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassettsj/algorithms-in-js.git"
+  },
+  "keywords": [
+    "js",
+    "computer",
+    "science",
+    "algirithms"
+  ],
+  "author": "Steven Bassett <steven.j.bassett@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bassettsj/algorithms-in-js/issues"
+  },
+  "homepage": "https://github.com/bassettsj/algorithms-in-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-syntax-flow": "^6.8.0",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.11.5",
+    "tape": "^4.6.0"
+  }
+}
